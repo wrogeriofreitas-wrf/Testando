@@ -1,0 +1,1416 @@
+{
+  "meta": {
+    "gerado": "2026-04-25",
+    "referencia_valores": "25/04/2026",
+    "aviso": "O valor de mercado e apenas uma referencia. O valor real do bem sera definido no ato da venda (se existir).",
+    "origem": "Manual/Planilha",
+    "registros_historico": 62,
+    "total_veiculos": 21
+  },
+  "sociedade": [
+    {
+      "placa": "AHL-0773",
+      "dono_legal": "Sonia Noemia de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "IIP-3568",
+      "dono_legal": "Sonia Noemia de Freitas",
+      "socios": [
+        {
+          "nome": "Denis",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Vanderlei",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Rogerio",
+          "percentual": 16.667
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 16.667
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "BWQ-1403",
+      "dono_legal": "Sonia Noemia de Freitas",
+      "socios": [
+        {
+          "nome": "Denis",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Vanderlei",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Rogerio",
+          "percentual": 16.667
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 16.667
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "APM-3335",
+      "dono_legal": "Sonia Noemia de Freitas",
+      "socios": [
+        {
+          "nome": "Denis",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Vanderlei",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Rogerio",
+          "percentual": 16.667
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 16.667
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "CPG-0054",
+      "dono_legal": "Vanderlei Alves de Oliveira",
+      "socios": [
+        {
+          "nome": "Denis",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Vanderlei",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Rogerio",
+          "percentual": 16.667
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 16.667
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "CARRETAS",
+      "dono_legal": "Multiplos (ver descricao)",
+      "socios": [
+        {
+          "nome": "Denis",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Vanderlei",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Rogerio",
+          "percentual": 16.667
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 16.667
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "JOM-2945",
+      "dono_legal": "Sonia Noemia de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "HGB-5A95",
+      "dono_legal": "Sonia Noemia de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "EFW-1697",
+      "dono_legal": "Sonia Noemia de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "EWU-A440",
+      "dono_legal": "Sonia Noemia de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "BUF-8i26",
+      "dono_legal": "Sonia Noemia de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "NKK-6E12",
+      "dono_legal": "Sylvia Leticia Campelo Pierot",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "EFV-3B10",
+      "dono_legal": "Sylvia Leticia Campelo Pierot",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "GCV-0I15",
+      "dono_legal": "Sylvia Leticia Campelo Pierot",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "DVS-1B87",
+      "dono_legal": "Wagner Rogerio de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "MEQ-1B76",
+      "dono_legal": "Wagner Rogerio de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "JIO-3H96",
+      "dono_legal": "Wagner Rogerio de Freitas",
+      "socios": [
+        {
+          "nome": "Vanderlei",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Rogerio",
+          "percentual": 33.333
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 33.333
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "KWM-3H82",
+      "dono_legal": "Wagner Rogerio de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "EXW-4E26",
+      "dono_legal": "Wagner Rogerio de Freitas",
+      "socios": [
+        {
+          "nome": "Guilherme",
+          "percentual": 50
+        },
+        {
+          "nome": "Rogerio",
+          "percentual": 25
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 25
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "NWN-7G66",
+      "dono_legal": "Wagner Rogerio de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "DUP-2A77",
+      "dono_legal": "Wagner Rogerio de Freitas",
+      "socios": [
+        {
+          "nome": "Rogerio",
+          "percentual": 50
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 50
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    }
+  ],
+  "historico": [
+    {
+      "placa": "AHL-0773",
+      "ano": 2015,
+      "descricao": "",
+      "cavalo": 78000.0,
+      "carreta": 78000.0,
+      "soma": 156000.0,
+      "vlr_mercado": 103999.9,
+      "lucro": 41508.16,
+      "roe": 0.399117
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2016,
+      "descricao": "",
+      "cavalo": 80000.0,
+      "carreta": 80000.0,
+      "soma": 160000.0,
+      "vlr_mercado": 106666.56,
+      "lucro": 23463.87,
+      "roe": 0.219974
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2017,
+      "descricao": "",
+      "cavalo": 82000.0,
+      "carreta": 82000.0,
+      "soma": 164000.0,
+      "vlr_mercado": 109333.22,
+      "lucro": 28740.76,
+      "roe": 0.262873
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2017,
+      "descricao": "",
+      "cavalo": 0.0,
+      "carreta": 19000.0,
+      "soma": 19000.0,
+      "vlr_mercado": 4750.0,
+      "lucro": 22630.51,
+      "roe": 4.764318
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2018,
+      "descricao": "",
+      "cavalo": 82500.0,
+      "carreta": 84000.0,
+      "soma": 166500.0,
+      "vlr_mercado": 110999.89,
+      "lucro": 34495.15,
+      "roe": 0.310767
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2018,
+      "descricao": "",
+      "cavalo": 0.0,
+      "carreta": 42000.0,
+      "soma": 42000.0,
+      "vlr_mercado": 10500.0,
+      "lucro": 58940.76,
+      "roe": 5.613406
+    },
+    {
+      "placa": "JOM-2945",
+      "ano": 2018,
+      "descricao": "",
+      "cavalo": 95000.0,
+      "carreta": 35000.0,
+      "soma": 130000.0,
+      "vlr_mercado": 130000.0,
+      "lucro": 32323.56,
+      "roe": 0.248643
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2019,
+      "descricao": "",
+      "cavalo": 85000.0,
+      "carreta": 86000.0,
+      "soma": 171000.0,
+      "vlr_mercado": 113999.89,
+      "lucro": 33495.38,
+      "roe": 0.293819
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2019,
+      "descricao": "",
+      "cavalo": 57000.0,
+      "carreta": 77000.0,
+      "soma": 134000.0,
+      "vlr_mercado": 33500.0,
+      "lucro": 32609.47,
+      "roe": 0.973417
+    },
+    {
+      "placa": "JOM-2945",
+      "ano": 2019,
+      "descricao": "",
+      "cavalo": 105000.0,
+      "carreta": 40000.0,
+      "soma": 145000.0,
+      "vlr_mercado": 145000.0,
+      "lucro": 95936.12,
+      "roe": 0.661628
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2020,
+      "descricao": "",
+      "cavalo": 87500.0,
+      "carreta": 90000.0,
+      "soma": 177500.0,
+      "vlr_mercado": 118333.21,
+      "lucro": 54071.8,
+      "roe": 0.456945
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2020,
+      "descricao": "",
+      "cavalo": 60000.0,
+      "carreta": 80000.0,
+      "soma": 140000.0,
+      "vlr_mercado": 35000.0,
+      "lucro": 39287.51,
+      "roe": 1.1225
+    },
+    {
+      "placa": "DUP-2A77",
+      "ano": 2020,
+      "descricao": "",
+      "cavalo": 150000.0,
+      "carreta": 90000.0,
+      "soma": 240000.0,
+      "vlr_mercado": 240000.0,
+      "lucro": 114059.07,
+      "roe": 0.475246
+    },
+    {
+      "placa": "JOM-2945",
+      "ano": 2020,
+      "descricao": "",
+      "cavalo": 110000.0,
+      "carreta": 76500.0,
+      "soma": 186500.0,
+      "vlr_mercado": 186500.0,
+      "lucro": 95337.65,
+      "roe": 0.511194
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2021,
+      "descricao": "",
+      "cavalo": 90000.0,
+      "carreta": 105000.0,
+      "soma": 195000.0,
+      "vlr_mercado": 129999.87,
+      "lucro": 35822.26,
+      "roe": 0.275556
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2021,
+      "descricao": "",
+      "cavalo": 62000.0,
+      "carreta": 91000.0,
+      "soma": 153000.0,
+      "vlr_mercado": 51000.0,
+      "lucro": 36062.94,
+      "roe": 0.707116
+    },
+    {
+      "placa": "DUP-2A77",
+      "ano": 2021,
+      "descricao": "",
+      "cavalo": 165000.0,
+      "carreta": 105000.0,
+      "soma": 270000.0,
+      "vlr_mercado": 270000.0,
+      "lucro": 76406.39,
+      "roe": 0.282987
+    },
+    {
+      "placa": "DVS-1B87",
+      "ano": 2021,
+      "descricao": "",
+      "cavalo": 142000.0,
+      "carreta": 90000.0,
+      "soma": 232000.0,
+      "vlr_mercado": 232000.0,
+      "lucro": 37915.11,
+      "roe": 0.163427
+    },
+    {
+      "placa": "JOM-2945",
+      "ano": 2021,
+      "descricao": "",
+      "cavalo": 115000.0,
+      "carreta": 105000.0,
+      "soma": 220000.0,
+      "vlr_mercado": 220000.0,
+      "lucro": 30328.52,
+      "roe": 0.137857
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2022,
+      "descricao": "",
+      "cavalo": 100000.0,
+      "carreta": 110000.0,
+      "soma": 210000.0,
+      "vlr_mercado": 139999.86,
+      "lucro": 31358.07,
+      "roe": 0.223986
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2022,
+      "descricao": "",
+      "cavalo": 80000.0,
+      "carreta": 98000.0,
+      "soma": 178000.0,
+      "vlr_mercado": 59333.33,
+      "lucro": 56318.17,
+      "roe": 0.949183
+    },
+    {
+      "placa": "DUP-2A77",
+      "ano": 2022,
+      "descricao": "",
+      "cavalo": 180000.0,
+      "carreta": 110000.0,
+      "soma": 290000.0,
+      "vlr_mercado": 290000.0,
+      "lucro": 97444.5,
+      "roe": 0.336016
+    },
+    {
+      "placa": "DVS-1B87",
+      "ano": 2022,
+      "descricao": "",
+      "cavalo": 160000.0,
+      "carreta": 95000.0,
+      "soma": 255000.0,
+      "vlr_mercado": 255000.0,
+      "lucro": 66977.69,
+      "roe": 0.262658
+    },
+    {
+      "placa": "JOM-2945",
+      "ano": 2022,
+      "descricao": "",
+      "cavalo": 125000.0,
+      "carreta": 110000.0,
+      "soma": 235000.0,
+      "vlr_mercado": 235000.0,
+      "lucro": 62884.51,
+      "roe": 0.267594
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2023,
+      "descricao": "",
+      "cavalo": 117000.0,
+      "carreta": 100000.0,
+      "soma": 217000.0,
+      "vlr_mercado": 217000.0,
+      "lucro": 38017.59,
+      "roe": 0.175196
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2023,
+      "descricao": "",
+      "cavalo": 82000.0,
+      "carreta": 100000.0,
+      "soma": 182000.0,
+      "vlr_mercado": 60666.67,
+      "lucro": 44987.93,
+      "roe": 0.741559
+    },
+    {
+      "placa": "DUP-2A77",
+      "ano": 2023,
+      "descricao": "",
+      "cavalo": 182000.0,
+      "carreta": 110000.0,
+      "soma": 292000.0,
+      "vlr_mercado": 292000.0,
+      "lucro": 134101.01,
+      "roe": 0.45925
+    },
+    {
+      "placa": "DVS-1B87",
+      "ano": 2023,
+      "descricao": "",
+      "cavalo": 160000.0,
+      "carreta": 100000.0,
+      "soma": 260000.0,
+      "vlr_mercado": 260000.0,
+      "lucro": 85768.69,
+      "roe": 0.32988
+    },
+    {
+      "placa": "JIO-3H96",
+      "ano": 2023,
+      "descricao": "",
+      "cavalo": 137000.0,
+      "carreta": 90000.0,
+      "soma": 227000.0,
+      "vlr_mercado": 151331.82,
+      "lucro": 71027.85,
+      "roe": 0.469352
+    },
+    {
+      "placa": "JOM-2945",
+      "ano": 2023,
+      "descricao": "",
+      "cavalo": 128000.0,
+      "carreta": 100000.0,
+      "soma": 228000.0,
+      "vlr_mercado": 228000.0,
+      "lucro": 100357.83,
+      "roe": 0.440166
+    },
+    {
+      "placa": "KWM-3H82",
+      "ano": 2023,
+      "descricao": "",
+      "cavalo": 185000.0,
+      "carreta": 90000.0,
+      "soma": 275000.0,
+      "vlr_mercado": 275000.0,
+      "lucro": 78951.31,
+      "roe": 0.287096
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 117000.0,
+      "carreta": 100000.0,
+      "soma": 217000.0,
+      "vlr_mercado": 217000.0,
+      "lucro": 53980.84,
+      "roe": 0.24876
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 82000.0,
+      "carreta": 100000.0,
+      "soma": 182000.0,
+      "vlr_mercado": 60666.67,
+      "lucro": 23340.38,
+      "roe": 0.384732
+    },
+    {
+      "placa": "DUP-2A77",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 182000.0,
+      "carreta": 110000.0,
+      "soma": 292000.0,
+      "vlr_mercado": 292000.0,
+      "lucro": -1994.7,
+      "roe": -0.006831
+    },
+    {
+      "placa": "DVS-1B87",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 160000.0,
+      "carreta": 100000.0,
+      "soma": 260000.0,
+      "vlr_mercado": 260000.0,
+      "lucro": 27014.94,
+      "roe": 0.103904
+    },
+    {
+      "placa": "EXW-4E26",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 0.0,
+      "carreta": 130000.0,
+      "soma": 65000.0,
+      "vlr_mercado": 65000.0,
+      "lucro": 3261.46,
+      "roe": 0.050176
+    },
+    {
+      "placa": "HGB-5A95",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 0.0,
+      "carreta": 75000.0,
+      "soma": 75000.0,
+      "vlr_mercado": 75000.0,
+      "lucro": 5215.5,
+      "roe": 0.06954
+    },
+    {
+      "placa": "JIO-3H96",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 137000.0,
+      "carreta": 90000.0,
+      "soma": 227000.0,
+      "vlr_mercado": 151331.82,
+      "lucro": 69981.25,
+      "roe": 0.462436
+    },
+    {
+      "placa": "JOM-2945",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 128000.0,
+      "carreta": 100000.0,
+      "soma": 228000.0,
+      "vlr_mercado": 228000.0,
+      "lucro": -165.1,
+      "roe": -0.000724
+    },
+    {
+      "placa": "KWM-3H82",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 185000.0,
+      "carreta": 90000.0,
+      "soma": 275000.0,
+      "vlr_mercado": 275000.0,
+      "lucro": 68773.39,
+      "roe": 0.250085
+    },
+    {
+      "placa": "NKK-6E12",
+      "ano": 2024,
+      "descricao": "",
+      "cavalo": 160000.0,
+      "carreta": 100000.0,
+      "soma": 260000.0,
+      "vlr_mercado": 260000.0,
+      "lucro": 47901.15,
+      "roe": 0.184235
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 120000.0,
+      "carreta": 40000.0,
+      "soma": 160000.0,
+      "vlr_mercado": 160000.0,
+      "lucro": 68836.65,
+      "roe": 0.430229
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 82000.0,
+      "carreta": 100000.0,
+      "soma": 182000.0,
+      "vlr_mercado": 60666.67,
+      "lucro": 5921.98,
+      "roe": 0.097615
+    },
+    {
+      "placa": "DUP-2A77",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 182000.0,
+      "carreta": 110000.0,
+      "soma": 292000.0,
+      "vlr_mercado": 292000.0,
+      "lucro": -900.0,
+      "roe": -0.003082
+    },
+    {
+      "placa": "DVS-1B87",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 160000.0,
+      "carreta": 100000.0,
+      "soma": 260000.0,
+      "vlr_mercado": 260000.0,
+      "lucro": 40590.89,
+      "roe": 0.156119
+    },
+    {
+      "placa": "EXW-4E26",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 0.0,
+      "carreta": 130000.0,
+      "soma": 65000.0,
+      "vlr_mercado": 65000.0,
+      "lucro": 14245.18,
+      "roe": 0.219157
+    },
+    {
+      "placa": "GCV-0I15",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 440000.0,
+      "carreta": 100000.0,
+      "soma": 440000.0,
+      "vlr_mercado": 540000.0,
+      "lucro": 42673.7,
+      "roe": 0.079025
+    },
+    {
+      "placa": "HGB-5A95",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 0.0,
+      "carreta": 75000.0,
+      "soma": 75000.0,
+      "vlr_mercado": 75000.0,
+      "lucro": 22062.0,
+      "roe": 0.29416
+    },
+    {
+      "placa": "JIO-3H96",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 137000.0,
+      "carreta": 90000.0,
+      "soma": 227000.0,
+      "vlr_mercado": 151331.82,
+      "lucro": 24268.8,
+      "roe": 0.160368
+    },
+    {
+      "placa": "JOM-2945",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 128000.0,
+      "carreta": 100000.0,
+      "soma": 228000.0,
+      "vlr_mercado": 228000.0,
+      "lucro": -28050.03,
+      "roe": -0.123026
+    },
+    {
+      "placa": "KWM-3H82",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 185000.0,
+      "carreta": 90000.0,
+      "soma": 275000.0,
+      "vlr_mercado": 275000.0,
+      "lucro": 55252.21,
+      "roe": 0.200917
+    },
+    {
+      "placa": "NKK-6E12",
+      "ano": 2025,
+      "descricao": "",
+      "cavalo": 160000.0,
+      "carreta": 100000.0,
+      "soma": 260000.0,
+      "vlr_mercado": 260000.0,
+      "lucro": 109938.11,
+      "roe": 0.422839
+    },
+    {
+      "placa": "AHL-0773",
+      "ano": 2026,
+      "descricao": "Cavalo AHL-0773 e Carreta BUF-8I26 está em nome da Sonia. Participação é 50,00% Rogerio e 50,00% Emerson.",
+      "cavalo": 129000.0,
+      "carreta": 45000.0,
+      "soma": 169000.0,
+      "vlr_mercado": 169000.0,
+      "lucro": -1251.69,
+      "roe": -0.007406
+    },
+    {
+      "placa": "CARRETAS",
+      "ano": 2026,
+      "descricao": "Cavalo CGP-0054 está em nome do Vanderlei + Carretas IIP-3568 + BWQ-1403 + APM-3335 em nome da Sonia. Participação é 33,333% Denis, 33,333% Vanderlei, 33,333% Denis, 16,666% Rogerio, 16,666% Emerson.",
+      "cavalo": 114000.0,
+      "carreta": 125000.0,
+      "soma": 239000.0,
+      "vlr_mercado": 79666.67,
+      "lucro": -2617.3,
+      "roe": -0.032853
+    },
+    {
+      "placa": "DVS-1B87",
+      "ano": 2026,
+      "descricao": "Cavalo DVS-1B87 está em nome do Rogerio + Carretas EWU-4A40 em nome da Sonia. Participação é 50,00% Rogerio e 50,00% Emerson.",
+      "cavalo": 177000.0,
+      "carreta": 100000.0,
+      "soma": 277000.0,
+      "vlr_mercado": 277000.0,
+      "lucro": 8430.69,
+      "roe": 0.030436
+    },
+    {
+      "placa": "EXW-4E26",
+      "ano": 2026,
+      "descricao": "Carreta EXW-4E26 em nome de Rogerio. Participação é 25,00% Rogerio, 25,00% Emerson e 50% Guilherme (mas ele ainda deve parte da carreta.",
+      "cavalo": 0.0,
+      "carreta": 130000.0,
+      "soma": 65000.0,
+      "vlr_mercado": 65000.0,
+      "lucro": 9147.9,
+      "roe": 0.140737
+    },
+    {
+      "placa": "GCV-0I15",
+      "ano": 2026,
+      "descricao": "Cavalo GCV-0I15 está em nome do Sylvia + Carretas MEQ-1B76 em nome do Rogerio. Participação é 50,00% Rogerio e 50,00% Emerson.",
+      "cavalo": 402000.0,
+      "carreta": 100000.0,
+      "soma": 502000.0,
+      "vlr_mercado": 502000.0,
+      "lucro": 2017.75,
+      "roe": 0.004019
+    },
+    {
+      "placa": "HGB-5A95",
+      "ano": 2026,
+      "descricao": "Carreta HGB-5A95 está em nome do Rogerio. Participação 50% Rogerio e 50,00% Emerson.",
+      "cavalo": 0.0,
+      "carreta": 80000.0,
+      "soma": 80000.0,
+      "vlr_mercado": 80000.0,
+      "lucro": 1763.5,
+      "roe": 0.022044
+    },
+    {
+      "placa": "JIO-3H96",
+      "ano": 2026,
+      "descricao": "Cavalo JIO-3H96 está em nome do Sylvia + Carretas EFW-1697 em nome do Rogerio. Participação é 33,333% Rogerio, 33,333% Emerson E 33,333% Vanderlei.",
+      "cavalo": 135000.0,
+      "carreta": 100000.0,
+      "soma": 235000.0,
+      "vlr_mercado": 156666.67,
+      "lucro": -2974.92,
+      "roe": -0.018989
+    },
+    {
+      "placa": "JOM-2945",
+      "ano": 2026,
+      "descricao": "Cavalo JOM-2945 está em nome da Sonia. Participação é 50,00% Rogerio e 50,00% Emerson.",
+      "cavalo": 141000.0,
+      "carreta": 0.0,
+      "soma": 141000.0,
+      "vlr_mercado": 141000.0,
+      "lucro": 17379.63,
+      "roe": 0.12326
+    },
+    {
+      "placa": "KWM-3H82",
+      "ano": 2026,
+      "descricao": "Cavalo KWM-3H82 e Carreta NWN-7G66 está em nome do Rogerio. Participação é 50,00% Rogerio e 50,00% Emerson.",
+      "cavalo": 191000.0,
+      "carreta": 90000.0,
+      "soma": 281000.0,
+      "vlr_mercado": 281000.0,
+      "lucro": 4854.57,
+      "roe": 0.017276
+    },
+    {
+      "placa": "NKK-6E12",
+      "ano": 2026,
+      "descricao": "Cavalo NKK-6E12 e Carreta EFV-3B10 está em nome da Sylvia. Participação é 50,00% Rogerio e 50,00% Emerson.",
+      "cavalo": 148000.0,
+      "carreta": 100000.0,
+      "soma": 248000.0,
+      "vlr_mercado": 248000.0,
+      "lucro": -19493.01,
+      "roe": -0.078601
+    }
+  ]
+}

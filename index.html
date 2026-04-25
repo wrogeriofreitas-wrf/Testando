@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DashLog · Patrimônio</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+:root{
+  --bg1:#0d1420;--bg2:#111b2a;--bg3:#162032;--bg4:#1a2740;
+  --text:#e2e8f0;--text2:#94a3b8;--text3:#5a7090;
+  --green:#10d9a0;--green2:rgba(16,217,160,0.12);
+  --red:#f05252;--red2:rgba(240,82,82,0.12);
+  --blue:#3b9eff;--blue2:rgba(59,158,255,0.12);
+  --amber:#f0b429;--amber2:rgba(240,180,41,0.12);
+  --purple:#a78bfa;--purple2:rgba(167,139,250,0.12);
+  --radius:10px;--mono:'IBM Plex Mono',monospace;
+  --border:rgba(255,255,255,0.06);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg1);color:var(--text);font-family:'IBM Plex Sans',sans-serif;min-height:100vh;}
+
+/* NAV */
+.topbar{background:var(--bg2);border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 24px;height:56px;position:sticky;top:0;z-index:100;}
+.topbar-brand{display:flex;align-items:center;gap:10px;}
+.topbar-logo svg{display:block;}
+.topbar-title{font-size:15px;font-weight:600;color:var(--text);}
+.topbar-sub{font-size:11px;color:var(--text3);font-family:var(--mono);}
+.nav-tabs{display:flex;gap:4px;}
+.nav-tab{padding:8px 18px;border-radius:7px;font-size:12px;font-weight:500;
+  cursor:pointer;border:1px solid transparent;color:var(--text2);transition:all .15s;}
+.nav-tab:hover{background:var(--bg3);color:var(--text);}
+.nav-tab.active{background:var(--green2);border-color:var(--green);color:var(--green);}
+.topbar-meta{font-size:10px;color:var(--text3);font-family:var(--mono);text-align:right;}
+
+/* MAIN */
+.main{max-width:1200px;margin:0 auto;padding:28px 20px;}
+.page{display:none;}.page.active{display:block;}
+
+/* AVISO LEGAL */
+.aviso{background:var(--amber2);border:1px solid rgba(240,180,41,0.25);border-radius:var(--radius);
+  padding:10px 16px;font-size:11px;color:var(--amber);margin-bottom:24px;font-family:var(--mono);}
+
+/* GRID FICHAS */
+.fichas-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;}
+.ficha{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);
+  overflow:hidden;transition:border-color .2s;}
+.ficha:hover{border-color:rgba(16,217,160,0.3);}
+.ficha-header{background:var(--bg3);padding:14px 16px;display:flex;align-items:center;justify-content:space-between;}
+.ficha-placa{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--green);letter-spacing:1px;}
+.ficha-dono{font-size:10px;color:var(--text3);margin-top:2px;}
+.ficha-tag{font-size:9px;padding:3px 8px;border-radius:4px;font-family:var(--mono);font-weight:600;}
+.tag-multi{background:var(--amber2);color:var(--amber);border:1px solid rgba(240,180,41,0.3);}
+.tag-50{background:var(--green2);color:var(--green);border:1px solid rgba(16,217,160,0.3);}
+.tag-custom{background:var(--blue2);color:var(--blue);border:1px solid rgba(59,158,255,0.3);}
+.ficha-body{padding:14px 16px;}
+.ficha-descr{font-size:11px;color:var(--text2);margin-bottom:12px;line-height:1.5;
+  padding:8px 10px;background:var(--bg3);border-radius:6px;font-style:italic;}
+.socios-title{font-size:10px;color:var(--text3);font-family:var(--mono);text-transform:uppercase;
+  letter-spacing:.5px;margin-bottom:8px;}
+.socios-list{display:flex;flex-direction:column;gap:6px;}
+.socio-row{display:flex;align-items:center;gap:10px;}
+.socio-nome{font-size:12px;color:var(--text);flex:1;}
+.socio-pct{font-family:var(--mono);font-size:12px;font-weight:600;min-width:52px;text-align:right;}
+.socio-bar-wrap{flex:2;height:5px;background:var(--bg4);border-radius:3px;overflow:hidden;}
+.socio-bar{height:100%;border-radius:3px;transition:width .4s;}
+.ficha-diretriz{margin-top:12px;padding:10px;background:var(--bg3);border-radius:6px;
+  border-left:2px solid var(--purple);font-size:10px;color:var(--text2);line-height:1.6;}
+.diretriz-label{font-size:9px;color:var(--purple);font-family:var(--mono);
+  text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;}
+
+/* ROE */
+.roe-controls{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px;align-items:center;}
+.roe-select{background:var(--bg2);border:1px solid var(--border);border-radius:7px;
+  color:var(--text);padding:8px 12px;font-size:12px;font-family:var(--mono);cursor:pointer;}
+.roe-select:focus{outline:none;border-color:var(--green);}
+.roe-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+@media(max-width:700px){.roe-grid{grid-template-columns:1fr;}}
+.roe-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:16px;}
+.roe-card-title{font-size:12px;font-family:var(--mono);color:var(--text2);margin-bottom:4px;}
+.roe-card-placa{font-size:18px;font-weight:700;color:var(--green);font-family:var(--mono);letter-spacing:1px;}
+.roe-card-val{font-size:13px;font-family:var(--mono);margin-top:2px;}
+.roe-chart-wrap{height:220px;margin-top:12px;}
+.roe-table{width:100%;border-collapse:collapse;font-size:12px;margin-top:12px;}
+.roe-table th{color:var(--text3);font-family:var(--mono);font-size:10px;text-align:left;
+  padding:6px 8px;border-bottom:1px solid var(--border);}
+.roe-table td{padding:7px 8px;border-bottom:1px solid rgba(255,255,255,0.03);font-family:var(--mono);}
+.roe-table tr:hover td{background:var(--bg3);}
+.pos{color:var(--green);}.neg{color:var(--red);}
+
+/* RANKING ROE */
+.rank-section{margin-top:28px;}
+.rank-title{font-size:13px;font-weight:600;color:var(--text);margin-bottom:14px;
+  padding-bottom:8px;border-bottom:1px solid var(--border);}
+.rank-row{display:flex;align-items:center;gap:12px;padding:10px 14px;
+  background:var(--bg2);border:1px solid var(--border);border-radius:8px;margin-bottom:6px;}
+.rank-num{font-family:var(--mono);font-size:11px;color:var(--text3);min-width:22px;}
+.rank-placa{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--green);min-width:90px;}
+.rank-bar-wrap{flex:1;height:6px;background:var(--bg4);border-radius:3px;overflow:hidden;}
+.rank-bar{height:100%;border-radius:3px;}
+.rank-pct{font-family:var(--mono);font-size:12px;min-width:70px;text-align:right;font-weight:600;}
+.rank-vlr{font-size:11px;color:var(--text3);min-width:100px;text-align:right;}
+
+/* LOADING */
+#loading{position:fixed;inset:0;background:var(--bg1);display:flex;align-items:center;
+  justify-content:center;z-index:999;flex-direction:column;gap:12px;}
+.load-icon{animation:spin 1.2s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+.load-txt{font-family:var(--mono);font-size:12px;color:var(--text3);}
+</style>
+</head>
+<body>
+
+<div id="loading">
+  <svg class="load-icon" width="36" height="36" viewBox="0 0 36 36">
+    <circle cx="18" cy="18" r="15" fill="none" stroke="rgba(16,217,160,0.15)" stroke-width="3"/>
+    <path d="M18 3 A15 15 0 0 1 33 18" fill="none" stroke="#10d9a0" stroke-width="3" stroke-linecap="round"/>
+  </svg>
+  <div class="load-txt">Carregando patrimônio...</div>
+</div>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="topbar-brand">
+    <div class="topbar-logo">
+      <svg viewBox="0 0 64 64" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+        <rect width="64" height="64" rx="10" fill="#111b2a"/>
+        <rect x="0.5" y="0.5" width="63" height="63" rx="9.5" fill="none" stroke="rgba(16,217,160,0.28)"/>
+        <path d="M18 14 L18 50 L32 50 A18 18 0 0 0 32 14 Z" fill="#10d9a0"/>
+        <path d="M25 42 L31 36 L37 30 L42 24" fill="none" stroke="#0d1420" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="25" cy="42" r="2.2" fill="#0d1420"/>
+        <circle cx="31" cy="36" r="2.2" fill="#0d1420"/>
+        <circle cx="37" cy="30" r="2.2" fill="#0d1420"/>
+        <circle cx="42" cy="24" r="2.2" fill="#0d1420"/>
+      </svg>
+    </div>
+    <div>
+      <div class="topbar-title">DashLog · Patrimônio</div>
+      <div class="topbar-sub">Gestão de Frota · Sociedade & ROE</div>
+    </div>
+  </div>
+  <div class="nav-tabs">
+    <div class="nav-tab active" onclick="goPage('fichas',this)">📋 Fichas dos Veículos</div>
+    <div class="nav-tab" onclick="goPage('roe',this)">📈 ROE por Veículo</div>
+  </div>
+  <div class="topbar-meta" id="top-meta">—</div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- FICHAS -->
+  <div class="page active" id="p-fichas">
+    <div class="aviso" id="aviso-legal">⚠ —</div>
+    <div class="fichas-grid" id="fichas-grid"></div>
+  </div>
+
+  <!-- ROE -->
+  <div class="page" id="p-roe">
+    <div class="roe-controls">
+      <select class="roe-select" id="roe-ano-sel" onchange="renderROE()">
+        <option value="todos">Todos os anos</option>
+      </select>
+      <select class="roe-select" id="roe-placa-sel" onchange="renderROE()">
+        <option value="todas">Todas as placas</option>
+      </select>
+    </div>
+    <div class="roe-grid" id="roe-grid"></div>
+    <div class="rank-section">
+      <div class="rank-title">Ranking ROE — ano selecionado</div>
+      <div id="roe-ranking"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+let DATA = null;
+
+// ── Navegação ──────────────────────────────────────
+function goPage(id, el){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('p-'+id).classList.add('active');
+  el.classList.add('active');
+  if(id==='roe') renderROE();
+}
+
+// ── Helpers ────────────────────────────────────────
+function fmtBR(v){
+  return 'R$ '+Math.abs(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+}
+function fmtPct(v){
+  return (v*100).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})+'%';
+}
+const COLORS = ['#10d9a0','#3b9eff','#a78bfa','#f0b429','#f05252','#FF7C24','#F8AB12'];
+function socioColor(nome){
+  const map={Rogerio:'#10d9a0',Emerson:'#3b9eff',Denis:'#f0b429',
+    Vanderlei:'#a78bfa',Guilherme:'#FF7C24'};
+  return map[nome]||'#94a3b8';
+}
+
+// ── FICHAS ─────────────────────────────────────────
+function renderFichas(){
+  const grid = document.getElementById('fichas-grid');
+  const av   = document.getElementById('aviso-legal');
+  av.textContent = '⚠ '+DATA.meta.aviso+' · Referência: '+DATA.meta.referencia_valores;
+
+  // Pegar descrição 2026 do histórico para cada placa
+  const descr2026 = {};
+  DATA.historico.filter(r=>r.ano===2026).forEach(r=>{ if(r.descricao) descr2026[r.placa]=r.descricao; });
+
+  // Valor de mercado atual (2026 ou mais recente)
+  const vlrAtual = {};
+  DATA.historico.forEach(r=>{ vlrAtual[r.placa]=r.vlr_mercado; }); // último sobrescreve = mais recente
+
+  grid.innerHTML = DATA.sociedade.map(v=>{
+    const descr = descr2026[v.placa] || '';
+    const vlr   = vlrAtual[v.placa] || 0;
+    const socios = v.socios;
+    const maxPct = Math.max(...socios.map(s=>s.percentual));
+    // Tag
+    const unicos = new Set(socios.map(s=>s.percentual));
+    const tag = unicos.size===1 && socios.length===2
+      ? `<span class="ficha-tag tag-50">50/50</span>`
+      : socios.length>2
+      ? `<span class="ficha-tag tag-custom">Múltiplos sócios</span>`
+      : `<span class="ficha-tag tag-custom">Personalizado</span>`;
+
+    const sociosHTML = socios.map(s=>`
+      <div class="socio-row">
+        <div class="socio-nome">${s.nome}</div>
+        <div class="socio-bar-wrap"><div class="socio-bar" style="width:${s.percentual}%;background:${socioColor(s.nome)};"></div></div>
+        <div class="socio-pct" style="color:${socioColor(s.nome)}">${s.percentual.toFixed(3)}%</div>
+      </div>`).join('');
+
+    // Diretriz Rogério — mostra parte de cada beneficiário
+    const benef = v.diretriz_rogerio.beneficiarios.map(b=>`${b.nome} (${b.percentual.toFixed(3)}%)`).join(' · ');
+    const pctRog = socios.find(s=>s.nome==='Rogerio')?.percentual||0;
+
+    return `<div class="ficha">
+      <div class="ficha-header">
+        <div>
+          <div class="ficha-placa">${v.placa}</div>
+          <div class="ficha-dono">📄 ${v.dono_legal}</div>
+          ${vlr>0?`<div class="ficha-dono" style="margin-top:2px;color:var(--green);">💰 ${fmtBR(vlr)} <span style="font-size:9px;color:var(--text3);">(ref.)</span></div>`:''}
+        </div>
+        ${tag}
+      </div>
+      <div class="ficha-body">
+        ${descr?`<div class="ficha-descr">🚚 ${descr}</div>`:''}
+        <div class="socios-title">Participação econômica</div>
+        <div class="socios-list">${sociosHTML}</div>
+        ${pctRog>0?`
+        <div class="ficha-diretriz">
+          <div class="diretriz-label">📋 Diretrizes de Transferência — Rogério (${pctRog.toFixed(3)}%)</div>
+          A participação de Rogério deve ser dividida igualmente entre: ${benef}
+        </div>`:''}
+        <div class="ficha-diretriz" style="border-color:var(--text3);margin-top:6px;">
+          <div class="diretriz-label" style="color:var(--text3);">Demais sócios</div>
+          ${v.diretriz_outros}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── ROE ────────────────────────────────────────────
+let roeCharts = {};
+function destroyCharts(){
+  Object.values(roeCharts).forEach(c=>c.destroy());
+  roeCharts={};
+}
+
+function renderROE(){
+  destroyCharts();
+  const anoSel   = document.getElementById('roe-ano-sel').value;
+  const placaSel = document.getElementById('roe-placa-sel').value;
+  const hist     = DATA.historico;
+
+  // Filtrar
+  let rows = hist.filter(r=>r.placa!=='CARRETAS'||placaSel==='CARRETAS');
+  if(anoSel!=='todos') rows=rows.filter(r=>r.ano===parseInt(anoSel));
+  if(placaSel!=='todas') rows=rows.filter(r=>r.placa===placaSel);
+
+  // Por placa
+  const porPlaca = {};
+  rows.forEach(r=>{
+    if(!porPlaca[r.placa]) porPlaca[r.placa]=[];
+    porPlaca[r.placa].push(r);
+  });
+
+  const grid = document.getElementById('roe-grid');
+  grid.innerHTML='';
+
+  Object.entries(porPlaca).forEach(([placa,dados])=>{
+    dados.sort((a,b)=>a.ano-b.ano);
+    const melhorROE = dados.reduce((m,r)=>Math.abs(r.roe)>Math.abs(m.roe)?r:m,dados[0]);
+    const anos  = dados.map(r=>r.ano);
+    const roes  = dados.map(r=>parseFloat((r.roe*100).toFixed(2)));
+    const cores = roes.map(v=>v>=0?'rgba(16,217,160,0.78)':'rgba(240,82,82,0.78)');
+
+    const cid = 'ch-roe-'+placa.replace(/[^a-zA-Z0-9]/g,'-');
+    const tableRows = dados.map(r=>`
+      <tr>
+        <td>${r.ano}</td>
+        <td>${fmtBR(r.vlr_mercado)}</td>
+        <td>${fmtBR(r.lucro)}</td>
+        <td class="${r.roe>=0?'pos':'neg'}">${(r.roe*100).toFixed(2)}%</td>
+      </tr>`).join('');
+
+    const card = document.createElement('div');
+    card.className='roe-card';
+    card.innerHTML=`
+      <div class="roe-card-title">ROE histórico</div>
+      <div class="roe-card-placa">${placa}</div>
+      <div class="roe-card-val ${melhorROE.roe>=0?'pos':'neg'}">
+        Melhor: ${melhorROE.ano} · ${(melhorROE.roe*100).toFixed(2)}%
+      </div>
+      <div class="roe-chart-wrap"><canvas id="${cid}"></canvas></div>
+      <table class="roe-table">
+        <thead><tr><th>Ano</th><th>Vlr.Mercado</th><th>Lucro</th><th>ROE</th></tr></thead>
+        <tbody>${tableRows}</tbody>
+      </table>`;
+    grid.appendChild(card);
+
+    setTimeout(()=>{
+      const ctx=document.getElementById(cid);
+      if(!ctx) return;
+      roeCharts[cid]=new Chart(ctx,{type:'bar',
+        data:{labels:anos,datasets:[{data:roes,backgroundColor:cores,borderWidth:0,borderRadius:4}]},
+        options:{responsive:true,maintainAspectRatio:false,
+          plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(2)+'%'}}},
+          scales:{y:{grid:{color:'rgba(255,255,255,0.05)'},ticks:{callback:v=>v+'%',color:'#5a7090',font:{size:10}}},
+            x:{grid:{display:false},ticks:{color:'#5a7090',font:{size:10}}}}}});
+    },50);
+  });
+
+  // Ranking
+  renderRanking(anoSel);
+}
+
+function renderRanking(anoSel){
+  const hist = DATA.historico.filter(r=>r.placa!=='CARRETAS');
+  let rows = anoSel==='todos' ? hist : hist.filter(r=>r.ano===parseInt(anoSel));
+
+  // Média por placa se todos os anos
+  const porPlaca={};
+  rows.forEach(r=>{
+    if(!porPlaca[r.placa]) porPlaca[r.placa]={sum:0,cnt:0,lucro:0};
+    porPlaca[r.placa].sum+=r.roe;
+    porPlaca[r.placa].cnt++;
+    porPlaca[r.placa].lucro+=r.lucro;
+  });
+
+  const ranking = Object.entries(porPlaca)
+    .map(([placa,d])=>({placa,roe:d.sum/d.cnt,lucro:d.lucro}))
+    .sort((a,b)=>b.roe-a.roe);
+
+  const maxROE = Math.max(...ranking.map(r=>Math.abs(r.roe)));
+  const el = document.getElementById('roe-ranking');
+  el.innerHTML = ranking.map((r,i)=>`
+    <div class="rank-row">
+      <div class="rank-num">#${i+1}</div>
+      <div class="rank-placa">${r.placa}</div>
+      <div class="rank-bar-wrap">
+        <div class="rank-bar" style="width:${maxROE>0?Math.abs(r.roe)/maxROE*100:0}%;
+          background:${r.roe>=0?'var(--green)':'var(--red)'};"></div>
+      </div>
+      <div class="rank-pct ${r.roe>=0?'pos':'neg'}">${(r.roe*100).toFixed(2)}%</div>
+      <div class="rank-vlr">${fmtBR(r.lucro)}</div>
+    </div>`).join('');
+}
+
+// ── INIT ───────────────────────────────────────────
+async function init(){
+  try{
+    const res = await fetch('patrimonio.json');
+    if(!res.ok) throw new Error('patrimonio.json não encontrado');
+    DATA = await res.json();
+
+    // Meta
+    document.getElementById('top-meta').innerHTML =
+      `Ref.: ${DATA.meta.referencia_valores}<br>Versão 1.0`;
+
+    // Popula selects ROE
+    const anos = [...new Set(DATA.historico.map(r=>r.ano))].sort();
+    const placas = [...new Set(DATA.historico.map(r=>r.placa))].sort();
+    const anoSel = document.getElementById('roe-ano-sel');
+    anos.forEach(a=>{ const o=document.createElement('option');o.value=a;o.textContent=a;anoSel.appendChild(o); });
+    // Selecionar ano atual por padrão
+    const anoAtual = new Date().getFullYear();
+    if(anos.includes(anoAtual)) anoSel.value=anoAtual;
+
+    const placaSel = document.getElementById('roe-placa-sel');
+    placas.forEach(p=>{ const o=document.createElement('option');o.value=p;o.textContent=p;placaSel.appendChild(o); });
+
+    renderFichas();
+
+    document.getElementById('loading').style.display='none';
+  }catch(err){
+    document.getElementById('loading').innerHTML=
+      `<div style="color:var(--red);font-family:var(--mono);font-size:13px;">
+        ⚠ Erro ao carregar patrimonio.json<br>
+        <span style="font-size:11px;color:var(--text3);">Coloque patrimonio.json na mesma pasta do HTML</span>
+      </div>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>

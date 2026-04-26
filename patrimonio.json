@@ -1,6 +1,6 @@
 {
   "meta": {
-    "gerado": "2026-04-25",
+    "gerado": "2026-04-26",
     "referencia_valores": "25/04/2026",
     "aviso": "O valor de mercado e apenas uma referencia. O valor real do bem sera definido no ato da venda (se existir).",
     "origem": "Planilha colunas P-Z (sociedade) e F-N (ROE)",
@@ -11,17 +11,18 @@
     {
       "placa": "AHL-0773",
       "dono_legal": "Sonia Noemia de Freitas",
-      "vlr_mercado": 130000.0,
+      "vlr_mercado": 129000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sonia Noemia de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
           "percentual": 50.0,
-          "valor": 65000.0
+          "valor": 64500.0
         },
         {
           "nome": "Emerson",
           "percentual": 50.0,
-          "valor": 65000.0
+          "valor": 64500.0
         }
       ],
       "diretriz_rogerio": {
@@ -47,6 +48,7 @@
       "placa": "IIP-3568",
       "dono_legal": "Sonia Noemia de Freitas",
       "vlr_mercado": 30000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sonia Noemia de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Denis",
@@ -92,6 +94,7 @@
       "placa": "BWQ-1403",
       "dono_legal": "Sonia Noemia de Freitas",
       "vlr_mercado": 30000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sonia Noemia de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Denis",
@@ -137,6 +140,7 @@
       "placa": "APM-3335",
       "dono_legal": "Sonia Noemia de Freitas",
       "vlr_mercado": 65000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sonia Noemia de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Denis",
@@ -181,17 +185,18 @@
     {
       "placa": "JOM-2945",
       "dono_legal": "Sonia Noemia de Freitas",
-      "vlr_mercado": 140000.0,
+      "vlr_mercado": 141000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sonia Noemia de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
           "percentual": 50.0,
-          "valor": 70000.0
+          "valor": 70500.0
         },
         {
           "nome": "Emerson",
           "percentual": 50.0,
-          "valor": 70000.0
+          "valor": 70500.0
         }
       ],
       "diretriz_rogerio": {
@@ -217,6 +222,7 @@
       "placa": "HGB-5A95",
       "dono_legal": "Sonia Noemia de Freitas",
       "vlr_mercado": 80000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sonia Noemia de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
@@ -252,6 +258,7 @@
       "placa": "EFW-1697",
       "dono_legal": "Sonia Noemia de Freitas",
       "vlr_mercado": 100000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sonia Noemia de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
@@ -287,6 +294,7 @@
       "placa": "EWU-A440",
       "dono_legal": "Sonia Noemia de Freitas",
       "vlr_mercado": 100000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sonia Noemia de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
@@ -321,17 +329,18 @@
     {
       "placa": "BUF-8i26",
       "dono_legal": "Sonia Noemia de Freitas",
-      "vlr_mercado": 40000.0,
+      "vlr_mercado": 45000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sonia Noemia de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
           "percentual": 50.0,
-          "valor": 20000.0
+          "valor": 22500.0
         },
         {
           "nome": "Emerson",
           "percentual": 50.0,
-          "valor": 20000.0
+          "valor": 22500.0
         }
       ],
       "diretriz_rogerio": {
@@ -356,17 +365,18 @@
     {
       "placa": "NKK-6E12",
       "dono_legal": "Sylvia Letícia Campelo Pierot",
-      "vlr_mercado": 145000.0,
+      "vlr_mercado": 148000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sylvia Letícia Campelo Pierot, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
           "percentual": 50.0,
-          "valor": 72500.0
+          "valor": 74000.0
         },
         {
           "nome": "Emerson",
           "percentual": 50.0,
-          "valor": 72500.0
+          "valor": 74000.0
         }
       ],
       "diretriz_rogerio": {
@@ -392,6 +402,7 @@
       "placa": "EFV-3B10",
       "dono_legal": "Sylvia Letícia Campelo Pierot",
       "vlr_mercado": 100000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sylvia Letícia Campelo Pierot, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
@@ -426,17 +437,18 @@
     {
       "placa": "GCV-0I15",
       "dono_legal": "Sylvia Letícia Campelo Pierot",
-      "vlr_mercado": 400000.0,
+      "vlr_mercado": 402000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Sylvia Letícia Campelo Pierot, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
           "percentual": 50.0,
-          "valor": 200000.0
+          "valor": 201000.0
         },
         {
           "nome": "Emerson",
           "percentual": 50.0,
-          "valor": 200000.0
+          "valor": 201000.0
         }
       ],
       "diretriz_rogerio": {
@@ -461,27 +473,28 @@
     {
       "placa": "CPG-0054",
       "dono_legal": "Vanderlei Alves de Oliveira",
-      "vlr_mercado": 110000.0,
+      "vlr_mercado": 114000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Vanderlei Alves de Oliveira, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Denis",
           "percentual": 33.333,
-          "valor": 36666.3
+          "valor": 37999.62
         },
         {
           "nome": "Vanderlei",
           "percentual": 33.333,
-          "valor": 36666.3
+          "valor": 37999.62
         },
         {
           "nome": "Rogerio",
           "percentual": 16.667,
-          "valor": 18333.7
+          "valor": 19000.38
         },
         {
           "nome": "Emerson",
           "percentual": 16.667,
-          "valor": 18333.7
+          "valor": 19000.38
         }
       ],
       "diretriz_rogerio": {
@@ -506,17 +519,18 @@
     {
       "placa": "DVS-1B87",
       "dono_legal": "Wagner Rogerio de Freitas",
-      "vlr_mercado": 170000.0,
+      "vlr_mercado": 177000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Wagner Rogerio de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
           "percentual": 50.0,
-          "valor": 85000.0
+          "valor": 88500.0
         },
         {
           "nome": "Emerson",
           "percentual": 50.0,
-          "valor": 85000.0
+          "valor": 88500.0
         }
       ],
       "diretriz_rogerio": {
@@ -542,6 +556,7 @@
       "placa": "MEQ-1B76",
       "dono_legal": "Wagner Rogerio de Freitas",
       "vlr_mercado": 100000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Wagner Rogerio de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
@@ -576,22 +591,23 @@
     {
       "placa": "JIO-3H96",
       "dono_legal": "Wagner Rogerio de Freitas",
-      "vlr_mercado": 130000.0,
+      "vlr_mercado": 135000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Wagner Rogerio de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Vanderlei",
           "percentual": 33.333,
-          "valor": 43332.9
+          "valor": 44999.55
         },
         {
           "nome": "Rogerio",
           "percentual": 33.333,
-          "valor": 43332.9
+          "valor": 44999.55
         },
         {
           "nome": "Emerson",
           "percentual": 33.333,
-          "valor": 43332.9
+          "valor": 44999.55
         }
       ],
       "diretriz_rogerio": {
@@ -616,17 +632,18 @@
     {
       "placa": "KWM-3H82",
       "dono_legal": "Wagner Rogerio de Freitas",
-      "vlr_mercado": 190000.0,
+      "vlr_mercado": 191000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Wagner Rogerio de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",
           "percentual": 50.0,
-          "valor": 95000.0
+          "valor": 95500.0
         },
         {
           "nome": "Emerson",
           "percentual": 50.0,
-          "valor": 95000.0
+          "valor": 95500.0
         }
       ],
       "diretriz_rogerio": {
@@ -651,22 +668,23 @@
     {
       "placa": "EXW-4E26",
       "dono_legal": "Wagner Rogerio de Freitas",
-      "vlr_mercado": 120000.0,
+      "vlr_mercado": 130000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Wagner Rogerio de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Guilherme",
           "percentual": 50.0,
-          "valor": 60000.0
+          "valor": 65000.0
         },
         {
           "nome": "Rogerio",
           "percentual": 25.0,
-          "valor": 30000.0
+          "valor": 32500.0
         },
         {
           "nome": "Emerson",
           "percentual": 25.0,
-          "valor": 30000.0
+          "valor": 32500.0
         }
       ],
       "diretriz_rogerio": {
@@ -692,6 +710,7 @@
       "placa": "NWN-7G66",
       "dono_legal": "Wagner Rogerio de Freitas",
       "vlr_mercado": 90000.0,
+      "observacao": "Apesar do veículo estar registrado no detran em nome de Wagner Rogerio de Freitas, para ecerramento da sociedade a participação economica deve seguir conforme abaixo.",
       "socios": [
         {
           "nome": "Rogerio",

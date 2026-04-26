@@ -221,7 +221,7 @@ function renderFichas(){
   const grid = document.getElementById('fichas-grid');
   grid.innerHTML = DATA.sociedade.map(v=>{
     const vlr   = v.vlr_mercado;
-    const descr = descr2026[v.placa] || '';
+    const descr = v.observacao || '';
 
     const sociosHTML = v.socios.map(s=>`
       <div class="socio-row">

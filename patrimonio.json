@@ -3,26 +3,29 @@
     "gerado": "2026-04-25",
     "referencia_valores": "25/04/2026",
     "aviso": "O valor de mercado e apenas uma referencia. O valor real do bem sera definido no ato da venda (se existir).",
-    "origem": "Manual/Planilha",
-    "registros_historico": 62,
-    "total_veiculos": 21
+    "origem": "Planilha colunas P-Z (sociedade) e F-N (ROE)",
+    "total_veiculos": 19,
+    "registros_historico": 62
   },
   "sociedade": [
     {
       "placa": "AHL-0773",
       "dono_legal": "Sonia Noemia de Freitas",
+      "vlr_mercado": 130000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 65000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 65000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -43,26 +46,31 @@
     {
       "placa": "IIP-3568",
       "dono_legal": "Sonia Noemia de Freitas",
+      "vlr_mercado": 30000.0,
       "socios": [
         {
           "nome": "Denis",
-          "percentual": 33.333
+          "percentual": 33.333,
+          "valor": 9999.9
         },
         {
           "nome": "Vanderlei",
-          "percentual": 33.333
+          "percentual": 33.333,
+          "valor": 9999.9
         },
         {
           "nome": "Rogerio",
-          "percentual": 16.667
+          "percentual": 16.667,
+          "valor": 5000.1
         },
         {
           "nome": "Emerson",
-          "percentual": 16.667
+          "percentual": 16.667,
+          "valor": 5000.1
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -83,26 +91,31 @@
     {
       "placa": "BWQ-1403",
       "dono_legal": "Sonia Noemia de Freitas",
+      "vlr_mercado": 30000.0,
       "socios": [
         {
           "nome": "Denis",
-          "percentual": 33.333
+          "percentual": 33.333,
+          "valor": 9999.9
         },
         {
           "nome": "Vanderlei",
-          "percentual": 33.333
+          "percentual": 33.333,
+          "valor": 9999.9
         },
         {
           "nome": "Rogerio",
-          "percentual": 16.667
+          "percentual": 16.667,
+          "valor": 5000.1
         },
         {
           "nome": "Emerson",
-          "percentual": 16.667
+          "percentual": 16.667,
+          "valor": 5000.1
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -123,106 +136,31 @@
     {
       "placa": "APM-3335",
       "dono_legal": "Sonia Noemia de Freitas",
+      "vlr_mercado": 65000.0,
       "socios": [
         {
           "nome": "Denis",
-          "percentual": 33.333
+          "percentual": 33.333,
+          "valor": 21666.45
         },
         {
           "nome": "Vanderlei",
-          "percentual": 33.333
+          "percentual": 33.333,
+          "valor": 21666.45
         },
         {
           "nome": "Rogerio",
-          "percentual": 16.667
+          "percentual": 16.667,
+          "valor": 10833.55
         },
         {
           "nome": "Emerson",
-          "percentual": 16.667
+          "percentual": 16.667,
+          "valor": 10833.55
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
-        "beneficiarios": [
-          {
-            "nome": "Sylvia Leticia Campelo Pierot",
-            "percentual": 33.333
-          },
-          {
-            "nome": "Gabriela",
-            "percentual": 33.333
-          },
-          {
-            "nome": "Mateus",
-            "percentual": 33.333
-          }
-        ]
-      },
-      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
-    },
-    {
-      "placa": "CPG-0054",
-      "dono_legal": "Vanderlei Alves de Oliveira",
-      "socios": [
-        {
-          "nome": "Denis",
-          "percentual": 33.333
-        },
-        {
-          "nome": "Vanderlei",
-          "percentual": 33.333
-        },
-        {
-          "nome": "Rogerio",
-          "percentual": 16.667
-        },
-        {
-          "nome": "Emerson",
-          "percentual": 16.667
-        }
-      ],
-      "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
-        "beneficiarios": [
-          {
-            "nome": "Sylvia Leticia Campelo Pierot",
-            "percentual": 33.333
-          },
-          {
-            "nome": "Gabriela",
-            "percentual": 33.333
-          },
-          {
-            "nome": "Mateus",
-            "percentual": 33.333
-          }
-        ]
-      },
-      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
-    },
-    {
-      "placa": "CARRETAS",
-      "dono_legal": "Multiplos (ver descricao)",
-      "socios": [
-        {
-          "nome": "Denis",
-          "percentual": 33.333
-        },
-        {
-          "nome": "Vanderlei",
-          "percentual": 33.333
-        },
-        {
-          "nome": "Rogerio",
-          "percentual": 16.667
-        },
-        {
-          "nome": "Emerson",
-          "percentual": 16.667
-        }
-      ],
-      "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -243,18 +181,21 @@
     {
       "placa": "JOM-2945",
       "dono_legal": "Sonia Noemia de Freitas",
+      "vlr_mercado": 140000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 70000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 70000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -275,18 +216,21 @@
     {
       "placa": "HGB-5A95",
       "dono_legal": "Sonia Noemia de Freitas",
+      "vlr_mercado": 80000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 40000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 40000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -307,18 +251,21 @@
     {
       "placa": "EFW-1697",
       "dono_legal": "Sonia Noemia de Freitas",
+      "vlr_mercado": 100000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 50000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 50000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -339,18 +286,21 @@
     {
       "placa": "EWU-A440",
       "dono_legal": "Sonia Noemia de Freitas",
+      "vlr_mercado": 100000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 50000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 50000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -371,18 +321,21 @@
     {
       "placa": "BUF-8i26",
       "dono_legal": "Sonia Noemia de Freitas",
+      "vlr_mercado": 40000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 20000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 20000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -402,19 +355,22 @@
     },
     {
       "placa": "NKK-6E12",
-      "dono_legal": "Sylvia Leticia Campelo Pierot",
+      "dono_legal": "Sylvia Letícia Campelo Pierot",
+      "vlr_mercado": 145000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 72500.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 72500.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -434,19 +390,22 @@
     },
     {
       "placa": "EFV-3B10",
-      "dono_legal": "Sylvia Leticia Campelo Pierot",
+      "dono_legal": "Sylvia Letícia Campelo Pierot",
+      "vlr_mercado": 100000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 50000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 50000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -466,19 +425,67 @@
     },
     {
       "placa": "GCV-0I15",
-      "dono_legal": "Sylvia Leticia Campelo Pierot",
+      "dono_legal": "Sylvia Letícia Campelo Pierot",
+      "vlr_mercado": 400000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 200000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 200000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
+        "beneficiarios": [
+          {
+            "nome": "Sylvia Leticia Campelo Pierot",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Gabriela",
+            "percentual": 33.333
+          },
+          {
+            "nome": "Mateus",
+            "percentual": 33.333
+          }
+        ]
+      },
+      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
+    },
+    {
+      "placa": "CPG-0054",
+      "dono_legal": "Vanderlei Alves de Oliveira",
+      "vlr_mercado": 110000.0,
+      "socios": [
+        {
+          "nome": "Denis",
+          "percentual": 33.333,
+          "valor": 36666.3
+        },
+        {
+          "nome": "Vanderlei",
+          "percentual": 33.333,
+          "valor": 36666.3
+        },
+        {
+          "nome": "Rogerio",
+          "percentual": 16.667,
+          "valor": 18333.7
+        },
+        {
+          "nome": "Emerson",
+          "percentual": 16.667,
+          "valor": 18333.7
+        }
+      ],
+      "diretriz_rogerio": {
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -499,18 +506,21 @@
     {
       "placa": "DVS-1B87",
       "dono_legal": "Wagner Rogerio de Freitas",
+      "vlr_mercado": 170000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 85000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 85000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -531,18 +541,21 @@
     {
       "placa": "MEQ-1B76",
       "dono_legal": "Wagner Rogerio de Freitas",
+      "vlr_mercado": 100000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 50000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 50000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -563,22 +576,26 @@
     {
       "placa": "JIO-3H96",
       "dono_legal": "Wagner Rogerio de Freitas",
+      "vlr_mercado": 130000.0,
       "socios": [
         {
           "nome": "Vanderlei",
-          "percentual": 33.333
+          "percentual": 33.333,
+          "valor": 43332.9
         },
         {
           "nome": "Rogerio",
-          "percentual": 33.333
+          "percentual": 33.333,
+          "valor": 43332.9
         },
         {
           "nome": "Emerson",
-          "percentual": 33.333
+          "percentual": 33.333,
+          "valor": 43332.9
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -599,18 +616,21 @@
     {
       "placa": "KWM-3H82",
       "dono_legal": "Wagner Rogerio de Freitas",
+      "vlr_mercado": 190000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 95000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 95000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -631,22 +651,26 @@
     {
       "placa": "EXW-4E26",
       "dono_legal": "Wagner Rogerio de Freitas",
+      "vlr_mercado": 120000.0,
       "socios": [
         {
           "nome": "Guilherme",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 60000.0
         },
         {
           "nome": "Rogerio",
-          "percentual": 25
+          "percentual": 25.0,
+          "valor": 30000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 25
+          "percentual": 25.0,
+          "valor": 30000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
@@ -667,50 +691,21 @@
     {
       "placa": "NWN-7G66",
       "dono_legal": "Wagner Rogerio de Freitas",
+      "vlr_mercado": 90000.0,
       "socios": [
         {
           "nome": "Rogerio",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 45000.0
         },
         {
           "nome": "Emerson",
-          "percentual": 50
+          "percentual": 50.0,
+          "valor": 45000.0
         }
       ],
       "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
-        "beneficiarios": [
-          {
-            "nome": "Sylvia Leticia Campelo Pierot",
-            "percentual": 33.333
-          },
-          {
-            "nome": "Gabriela",
-            "percentual": 33.333
-          },
-          {
-            "nome": "Mateus",
-            "percentual": 33.333
-          }
-        ]
-      },
-      "diretriz_outros": "A participacao dos demais socios deve ser repassada conforme a ordem legal de sucessao de cada um (conjuge, filhos, etc.)."
-    },
-    {
-      "placa": "DUP-2A77",
-      "dono_legal": "Wagner Rogerio de Freitas",
-      "socios": [
-        {
-          "nome": "Rogerio",
-          "percentual": 50
-        },
-        {
-          "nome": "Emerson",
-          "percentual": 50
-        }
-      ],
-      "diretriz_rogerio": {
-        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais: 33,333% Sylvia Leticia Campelo Pierot, 33,333% Gabriela e 33,333% Mateus.",
+        "texto": "A participacao de Rogerio deve ser dividida em 3 partes iguais.",
         "beneficiarios": [
           {
             "nome": "Sylvia Leticia Campelo Pierot",
